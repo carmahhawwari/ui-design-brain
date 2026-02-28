@@ -20,7 +20,7 @@ The result: interfaces that feel designed by a senior product designer, not asse
 
 ```bash
 # Clone into your Cursor skills directory
-git clone https://github.com/YOUR_USERNAME/ui-design-brain.git \
+git clone https://github.com/carmahhawwari/ui-design-brain.git \
   ~/.cursor/skills/ui-design-brain
 ```
 
@@ -28,7 +28,7 @@ git clone https://github.com/YOUR_USERNAME/ui-design-brain.git \
 
 ```bash
 # Clone into your project's .cursor/skills directory
-git clone https://github.com/YOUR_USERNAME/ui-design-brain.git \
+git clone https://github.com/carmahhawwari/ui-design-brain.git \
   .cursor/skills/ui-design-brain
 ```
 
