@@ -74,7 +74,7 @@ Sourced from [component.gallery](https://component.gallery) and enriched with pr
 
 **Also known as:** Arrow toggle  ·  Collapse  ·  Collapsible sections  ·  Collapsible  ·  Details  ·  Disclosure  ·  Expandable  ·  Expander
 
-An accordion is a vertical stack of interactive headings used to toggle the display of further information; each item can be 'collapsed' with just a short label visible or 'expanded' to show the full content.
+A vertically stacked set of collapsible sections — each heading toggles between showing a short label and revealing the full content beneath it.
 
 **Best practices:**
 - Use for long-form content that benefits from progressive disclosure
@@ -96,7 +96,7 @@ An accordion is a vertical stack of interactive headings used to toggle the disp
 
 **Also known as:** Notification  ·  Feedback  ·  Message  ·  Banner  ·  Callout
 
-A way of informing the user of important changes in a prominent way.
+A prominent message used to communicate important information or status changes to the user.
 
 **Best practices:**
 - Use semantic color coding: red for errors, amber for warnings, green for success, blue for info
@@ -116,7 +116,7 @@ A way of informing the user of important changes in a prominent way.
 
 ## Avatar
 
-A graphical representation of a user: usually a photo, illustration, or initial.
+A visual representation of a user, typically displayed as a photo, illustration, or initials.
 
 **Best practices:**
 - Support three sizes: small (24–32 px), medium (40–48 px), large (64–80 px)
@@ -137,7 +137,7 @@ A graphical representation of a user: usually a photo, illustration, or initial.
 
 **Also known as:** Tag  ·  Label  ·  Chip
 
-A small label, generally appearing inside or in close proximity to another larger interface component, representing a status, property, or some other metadata.
+A compact label that sits within or near a larger component to convey status, category, or other metadata.
 
 **Best practices:**
 - Keep badge text to one or two words — they are labels, not sentences
@@ -158,7 +158,7 @@ A small label, generally appearing inside or in close proximity to another large
 
 **Also known as:** Breadcrumb trail
 
-A list of links showing the location of the current page in the navigational hierarchy.
+A trail of links that shows where the current page sits within the site's navigational hierarchy.
 
 **Best practices:**
 - Show the full hierarchy path; truncate middle segments on mobile with an ellipsis menu
@@ -177,7 +177,7 @@ A list of links showing the location of the current page in the navigational hie
 
 ## Button
 
-Buttons trigger an action such as submitting a form or showing/hiding an interface component.
+An interactive control that triggers an action — submitting a form, opening a dialog, toggling visibility.
 
 **Best practices:**
 - Establish a clear visual hierarchy: primary (filled), secondary (outlined), tertiary (text-only)
@@ -199,7 +199,7 @@ Buttons trigger an action such as submitting a form or showing/hiding an interfa
 
 **Also known as:** Toolbar
 
-A wrapper for multiple, related buttons.
+A container that groups related buttons together as a single visual unit.
 
 **Best practices:**
 - Group only related actions — unrelated buttons should be separated
@@ -219,7 +219,7 @@ A wrapper for multiple, related buttons.
 
 **Also known as:** Tile
 
-A container for content representing a single entity. e.g. a contact, article, or task.
+A self-contained content block representing a single entity such as a contact, article, or task.
 
 **Best practices:**
 - Use a single, clear visual hierarchy within each card: media → title → meta → action
@@ -240,7 +240,7 @@ A container for content representing a single entity. e.g. a contact, article, o
 
 **Also known as:** Content slider
 
-A means of displaying multiple slides of content, one or more at a time. Navigation between slides can be controlled via swiping, scrolling, or buttons.
+A component that cycles through multiple content slides, navigable via swipe, scroll, or button controls.
 
 **Best practices:**
 - Provide visible navigation arrows and pagination dots
@@ -260,7 +260,7 @@ A means of displaying multiple slides of content, one or more at a time. Navigat
 
 ## Checkbox
 
-An input for choosing from predefined options: in a group it allows the user to select multiple values from a list of options; when used alone, it gives a binary choice (checked/unchecked).
+A selection control — use in groups for multi-select from a list, or standalone for a single on/off choice.
 
 **Best practices:**
 - Use checkboxes for multi-select, not single toggles (use a switch for on/off)
@@ -279,7 +279,7 @@ An input for choosing from predefined options: in a group it allows the user to 
 
 ## Color picker
 
-An input for choosing a color.
+A control that lets users select a color value.
 
 **Best practices:**
 - Provide a spectrum picker, hue slider, and direct hex/RGB input
@@ -300,7 +300,7 @@ An input for choosing a color.
 
 **Also known as:** Autocomplete  ·  Autosuggest
 
-An input that behaves similarly to a select, with the addition of a free text input to filter options.
+A select-like input enhanced with a free-text field that filters available options as you type.
 
 **Best practices:**
 - Show suggestions after 1–2 characters to reduce noise
@@ -319,7 +319,7 @@ An input that behaves similarly to a select, with the addition of a free text in
 
 ## Date input
 
-A means of inputting a date — often separated into multiple individual fields for day/month/year.
+A date entry control, often split into separate day, month, and year fields.
 
 **Best practices:**
 - Clearly label the expected format (DD/MM/YYYY or MM/DD/YYYY)
@@ -338,7 +338,7 @@ A means of inputting a date — often separated into multiple individual fields 
 
 **Also known as:** Calendar  ·  Datetime picker
 
-A visual way to choose a date using a calendar view.
+A calendar-based control for selecting dates visually.
 
 **Best practices:**
 - Allow both manual text entry and calendar selection
@@ -360,7 +360,7 @@ A visual way to choose a date using a calendar view.
 
 **Also known as:** Tray  ·  Flyout  ·  Sheet
 
-A panel which slides out from the edge of the screen.
+A panel that slides in from a screen edge to reveal secondary content or actions.
 
 **Best practices:**
 - Use drawers for secondary content or focused sub-tasks that don't warrant a full page
@@ -381,7 +381,7 @@ A panel which slides out from the edge of the screen.
 
 **Also known as:** Select menu
 
-A menu in which options are hidden by default but can be shown by interacting with a button; it differs from a select in that it shows actions or navigation options and is not a form input.
+A menu triggered by a button that reveals a list of actions or navigation options — unlike a select, it is not a form input.
 
 **Best practices:**
 - Group related items with separators and optional group headings
@@ -400,7 +400,7 @@ A menu in which options are hidden by default but can be shown by interacting wi
 
 ## Empty state
 
-An indication to the user that there is no data to display in the current view; it often includes an alternative action.
+A placeholder shown when a view has no data to display, typically paired with a helpful action or suggestion.
 
 **Best practices:**
 - Include a clear illustration or icon to soften the empty feeling
@@ -419,7 +419,7 @@ An indication to the user that there is no data to display in the current view; 
 
 ## Fieldset
 
-A wrapper for related form fields.
+A container that groups related form fields under a shared label or legend.
 
 **Best practices:**
 - Use fieldsets to group related form fields under a descriptive legend
@@ -437,7 +437,7 @@ A wrapper for related form fields.
 
 **Also known as:** Attachment  ·  Download
 
-A representation of a file such as an uploaded attachment or a downloadable PDF.
+A visual representation of a file — such as an uploaded attachment or a downloadable document.
 
 **Best practices:**
 - Show file type icon, name, and size clearly
@@ -456,7 +456,7 @@ A representation of a file such as an uploaded attachment or a downloadable PDF.
 
 **Also known as:** File input  ·  File uploader  ·  Dropzone
 
-An input which allows users to upload a file from their device.
+A control that lets users select and upload files from their device.
 
 **Best practices:**
 - Support drag-and-drop with a clearly defined drop zone
@@ -476,7 +476,7 @@ An input which allows users to upload a file from their device.
 
 ## Footer
 
-Commonly appearing at the bottom of a page or section, a footer is used to display copyright and legal information or links to related content.
+A region at the bottom of a page or section containing copyright info, legal links, or secondary navigation.
 
 **Best practices:**
 - Organize links into clear columns by category
@@ -495,7 +495,7 @@ Commonly appearing at the bottom of a page or section, a footer is used to displ
 
 ## Form
 
-A grouping of input controls that allow a user to submit information to a server.
+A collection of input controls that allows users to enter and submit structured data.
 
 **Best practices:**
 - Use a single-column layout for most forms — it's faster to scan
@@ -515,7 +515,7 @@ A grouping of input controls that allow a user to submit information to a server
 
 ## Header
 
-An element that appears across the top of all pages on a website or application; it usually contains the site name and main navigation.
+The persistent top-of-page region containing the site brand, primary navigation, and key actions.
 
 **Best practices:**
 - Keep the header height compact (56–72 px) to preserve content space
@@ -534,7 +534,7 @@ An element that appears across the top of all pages on a website or application;
 
 ## Heading
 
-A title or caption used to introduce a new section.
+A title element that introduces and labels a content section.
 
 **Best practices:**
 - Use a strict heading hierarchy (h1 → h2 → h3) for accessibility and SEO
@@ -553,7 +553,7 @@ A title or caption used to introduce a new section.
 
 **Also known as:** Jumbotron  ·  Banner
 
-A large banner, usually appearing as one of the first items on a page; it often contains a full-width image.
+A prominent banner near the top of a page, typically featuring a full-width image or illustration with a headline.
 
 **Best practices:**
 - Lead with a compelling headline — clarity over cleverness
@@ -572,7 +572,7 @@ A large banner, usually appearing as one of the first items on a page; it often 
 
 ## Icon
 
-An icon is a graphic symbol designed to visually indicate the purpose of an interface element.
+A small graphic symbol that communicates the purpose or meaning of an interface element at a glance.
 
 **Best practices:**
 - Use a consistent icon style throughout the product (outlined or filled, not mixed)
@@ -592,7 +592,7 @@ An icon is a graphic symbol designed to visually indicate the purpose of an inte
 
 **Also known as:** Picture
 
-An element for embedding images.
+A component for displaying embedded images within a page.
 
 **Best practices:**
 - Always provide meaningful alt text for accessibility
@@ -613,7 +613,7 @@ An element for embedding images.
 
 **Also known as:** Form label
 
-A text label for form inputs.
+A text element that identifies and describes a form input.
 
 **Best practices:**
 - Always associate labels with their form inputs (htmlFor / id pairing)
@@ -632,7 +632,7 @@ A text label for form inputs.
 
 **Also known as:** Anchor  ·  Hyperlink
 
-A link is a reference to a resource. This can be external (e.g. a different web page) or internal (e.g. a specific element in the current document).
+A clickable reference to another resource — either an external page or a location within the current document.
 
 **Best practices:**
 - Make link text descriptive — avoid 'click here' or 'learn more' in isolation
@@ -651,7 +651,7 @@ A link is a reference to a resource. This can be external (e.g. a different web 
 
 ## List
 
-Lists are used for grouping a collection of related items.
+A component that groups related items into an ordered or unordered sequence.
 
 **Best practices:**
 - Use consistent vertical rhythm — equal spacing between list items
@@ -672,7 +672,7 @@ Lists are used for grouping a collection of related items.
 
 **Also known as:** Dialog  ·  Popup  ·  Modal window
 
-A modal is an interface element that appears over other content. It requires an interaction from the user before they can return to whatever is underneath.
+An overlay that demands the user's attention — interaction is required before returning to the content beneath.
 
 **Best practices:**
 - Use modals sparingly — only for actions that require immediate attention or focused input
@@ -694,7 +694,7 @@ A modal is an interface element that appears over other content. It requires an 
 
 **Also known as:** Nav  ·  Menu
 
-A container for navigation links; these can be to other pages or to elements within the current page.
+A region containing links for moving between pages or jumping to sections within the current page.
 
 **Best practices:**
 - Limit primary navigation to 5–7 items; group the rest under 'More' or sub-menus
@@ -713,7 +713,7 @@ A container for navigation links; these can be to other pages or to elements wit
 
 ## Pagination
 
-Pagination is the process of splitting information over multiple pages instead of showing it all on a single page; also the name for the interface component used for navigating between these pages.
+A control for navigating between pages of content when data is split across multiple views.
 
 **Best practices:**
 - Show first, last, and a window of pages around the current one
@@ -732,7 +732,7 @@ Pagination is the process of splitting information over multiple pages instead o
 
 ## Popover
 
-An element that pops up from another element over other content; it differs from a tooltip in that it is usually triggered via click instead of hover and can contain interactive elements.
+A floating panel that appears on click near its trigger element — unlike a tooltip, it can contain interactive content.
 
 **Best practices:**
 - Trigger via click, not hover, to support touch devices and accessibility
@@ -753,7 +753,7 @@ An element that pops up from another element over other content; it differs from
 
 **Also known as:** Progress
 
-A horizontal bar indicating the current completion status of a long-running task, usually updated continuously as the task progresses.
+A horizontal indicator showing how far a long-running task has progressed toward completion.
 
 **Best practices:**
 - Show a determinate bar when progress is measurable, indeterminate when unknown
@@ -774,7 +774,7 @@ A horizontal bar indicating the current completion status of a long-running task
 
 **Also known as:** Progress tracker  ·  Stepper  ·  Steps  ·  Timeline  ·  Meter
 
-A representation of a user's progress through a series of discrete steps.
+A visual display of how far a user has advanced through a multi-step process.
 
 **Best practices:**
 - Clearly distinguish completed, current, and upcoming steps
@@ -795,7 +795,7 @@ A representation of a user's progress through a series of discrete steps.
 
 **Also known as:** Pull quote  ·  Block quote
 
-Quotes are used to display a quotation: either from a person or another outside source or to highlight a passage of the current document.
+A styled block for displaying quotations — from a person, an external source, or a highlighted passage.
 
 **Best practices:**
 - Use a distinct visual treatment — large quotation marks, left border, or italic text
@@ -813,7 +813,7 @@ Quotes are used to display a quotation: either from a person or another outside 
 
 **Also known as:** Radio  ·  Radio group
 
-Radio buttons allow a user to select a single option from a list of predefined options.
+A selection control where the user picks exactly one option from a predefined set.
 
 **Best practices:**
 - Use radio buttons for mutually exclusive choices (select one from many)
@@ -832,7 +832,7 @@ Radio buttons allow a user to select a single option from a list of predefined o
 
 ## Rating
 
-Ratings let users see and/or set a star rating for a product or other item.
+A control that displays or captures a star-based score for a product or item.
 
 **Best practices:**
 - Use 5-star scale as the widely understood standard
@@ -851,7 +851,7 @@ Ratings let users see and/or set a star rating for a product or other item.
 
 **Also known as:** RTE  ·  WYSIWYG editor
 
-An interface for editing rich text content (with formatting), usually through a WYSIWYG interface.
+A WYSIWYG editing surface for creating and formatting rich text content.
 
 **Best practices:**
 - Provide a minimal default toolbar — reveal advanced formatting on demand
@@ -870,7 +870,7 @@ An interface for editing rich text content (with formatting), usually through a 
 
 **Also known as:** Search
 
-Search inputs allow users to find content by entering a search term.
+A text field designed for entering search queries to find content.
 
 **Best practices:**
 - Place a magnifying glass icon inside the field to signal purpose
@@ -891,7 +891,7 @@ Search inputs allow users to find content by entering a search term.
 
 **Also known as:** Toggle button group
 
-A hybrid somewhere between a button group, radio buttons, and tabs; segmented controls are used to switch between different options or views.
+A compact row of mutually exclusive options — a hybrid of button groups, radio buttons, and tabs for switching views.
 
 **Best practices:**
 - Limit to 2–5 segments — more options warrant tabs or a dropdown
@@ -912,7 +912,7 @@ A hybrid somewhere between a button group, radio buttons, and tabs; segmented co
 
 **Also known as:** Dropdown  ·  Select input
 
-A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options.
+A form input that shows the current selection when collapsed and reveals a scrollable option list when expanded.
 
 **Best practices:**
 - Use native select for simple use cases (better accessibility and mobile UX)
@@ -933,7 +933,7 @@ A form input used for selecting a value: when collapsed it shows the currently s
 
 **Also known as:** Divider  ·  Horizontal rule  ·  Vertical rule
 
-A separator between two elements, usually consisting of a horizontal line.
+A visual divider — typically a horizontal or vertical line — used to separate content sections.
 
 **Best practices:**
 - Use subtle, low-contrast separators — they guide the eye, not dominate it
@@ -951,7 +951,7 @@ A separator between two elements, usually consisting of a horizontal line.
 
 **Also known as:** Skeleton loader
 
-A placeholder layout for content which hasn't yet loaded, usually built up of grey boxes.
+A low-fidelity placeholder that mimics the shape of content while it loads, typically rendered as grey blocks.
 
 **Best practices:**
 - Match the skeleton shape to the actual content layout as closely as possible
@@ -970,7 +970,7 @@ A placeholder layout for content which hasn't yet loaded, usually built up of gr
 
 ## Skip link
 
-Links within a page for skipping to another section, primarily for users who navigate using a keyboard.
+Hidden navigation links that let keyboard users jump directly to the main content, bypassing repeated elements.
 
 **Best practices:**
 - Make it the first focusable element in the DOM
@@ -986,7 +986,7 @@ Links within a page for skipping to another section, primarily for users who nav
 
 **Also known as:** Range input
 
-A form control for choosing a value within a preset range of values.
+A draggable control for selecting a value from within a defined range.
 
 **Best practices:**
 - Show the current value in a tooltip or adjacent label
@@ -1007,7 +1007,7 @@ A form control for choosing a value within a preset range of values.
 
 **Also known as:** Loader  ·  Loading
 
-A visual indicator that a process is happening in the background but the interface is not yet ready for interaction.
+An animated indicator showing that a background process is running and the interface isn't yet interactive.
 
 **Best practices:**
 - Show spinners only after a delay (~300 ms) to avoid flicker on fast responses
@@ -1026,7 +1026,7 @@ A visual indicator that a process is happening in the background but the interfa
 
 ## Stack
 
-A wrapper component for adding a consistent margin between components.
+A layout utility that applies uniform spacing between its child components.
 
 **Best practices:**
 - Use a consistent spacing scale (4, 8, 12, 16, 24, 32, 48 px)
@@ -1044,7 +1044,7 @@ A wrapper component for adding a consistent margin between components.
 
 **Also known as:** Nudger  ·  Quantity  ·  Counter
 
-A control for editing a numeric value with buttons for decrementing / incrementing.
+A numeric input with increment and decrement buttons for adjusting a value.
 
 **Best practices:**
 - Use clear +/- buttons with adequate touch targets
@@ -1061,7 +1061,7 @@ A control for editing a numeric value with buttons for decrementing / incrementi
 
 ## Table
 
-A component for displaying large amounts of data in rows and columns; commonly referred to as a 'Data Table' when it includes sorting and/or filtering functionality.
+A structured grid of rows and columns for displaying data — often called a data table when it supports sorting and filtering.
 
 **Best practices:**
 - Use a sticky header row for scrollable tables
@@ -1083,7 +1083,7 @@ A component for displaying large amounts of data in rows and columns; commonly r
 
 **Also known as:** Tabbed interface
 
-Tabbed interfaces are a way of navigating between multiple panels, reducing clutter and fitting more into a smaller space.
+A set of selectable labels that switch between content panels, keeping the layout compact.
 
 **Best practices:**
 - Limit to 2–7 tabs; more options need a scrollable tab bar or dropdown overflow
@@ -1103,7 +1103,7 @@ Tabbed interfaces are a way of navigating between multiple panels, reducing clut
 
 ## Text input
 
-A form control that accepts a single line of text.
+A single-line form field for entering short text values.
 
 **Best practices:**
 - Use appropriate input types (email, tel, url, number) for mobile keyboard optimization
@@ -1124,7 +1124,7 @@ A form control that accepts a single line of text.
 
 **Also known as:** Textbox  ·  Text box
 
-A form control for editing multi-line text.
+A multi-line text field for longer content entry.
 
 **Best practices:**
 - Allow vertical resizing but consider setting a min and max height
@@ -1144,7 +1144,7 @@ A form control for editing multi-line text.
 
 **Also known as:** Snackbar
 
-A type of alert which appears in a layer above other content, visually similar to a mobile or desktop push notification.
+A brief, non-blocking notification that appears in a floating layer above the interface.
 
 **Best practices:**
 - Auto-dismiss after 4–6 seconds for non-critical toasts
@@ -1166,7 +1166,7 @@ A type of alert which appears in a layer above other content, visually similar t
 
 **Also known as:** Switch  ·  Lightswitch  ·  Toggle button
 
-A control used to switch between two states: often on or off.
+A binary switch control that toggles between two states — typically on and off.
 
 **Best practices:**
 - Use for binary on/off settings that take effect immediately
@@ -1187,7 +1187,7 @@ A control used to switch between two states: often on or off.
 
 **Also known as:** Toggletip
 
-A means of displaying a description or extra information about an element, usually on hover, but can also be on click or tap.
+A small floating label that reveals supplementary information about an element, typically on hover.
 
 **Best practices:**
 - Use tooltips for supplementary info — never for essential content
@@ -1207,7 +1207,7 @@ A means of displaying a description or extra information about an element, usual
 
 ## Tree view
 
-A component for displaying nested hierarchical information, such as a table of contents or directory structure.
+A collapsible, nested hierarchy for browsing structured data like file trees or category taxonomies.
 
 **Best practices:**
 - Use indentation (16–24 px per level) to show hierarchy
@@ -1228,7 +1228,7 @@ A component for displaying nested hierarchical information, such as a table of c
 
 **Also known as:** Video player
 
-Video players are used for displaying video content; they often include controls to control playback.
+A media component for playing video content, typically with controls for playback, volume, and fullscreen.
 
 **Best practices:**
 - Show a poster/thumbnail image before playback
@@ -1248,7 +1248,7 @@ Video players are used for displaying video content; they often include controls
 
 **Also known as:** Screenreader only
 
-Invisible text used to provide extra context for users of assistive technology.
+Content that is hidden visually but remains accessible to screen readers and other assistive technology.
 
 **Best practices:**
 - Use for screen-reader-only text that provides context invisible users don't need
